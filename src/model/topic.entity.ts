@@ -2,7 +2,7 @@ import { Entity, Column, OneToMany } from 'typeorm';
 import { BaseEntity } from './base.entity';
 import { PostEntity } from './post.entity';
 
-@Entity({ name: 'user' })
+@Entity({ name: 'topic' })
 export class TopicEntity extends BaseEntity {
 
   @Column({ type: 'varchar', length: 200 })
